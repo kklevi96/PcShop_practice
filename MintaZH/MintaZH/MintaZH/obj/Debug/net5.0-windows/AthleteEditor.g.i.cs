@@ -53,7 +53,7 @@ namespace MintaZH {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/MintaZH;component/athleteeditor.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/MintaZH;V1.0.0.0;component/athleteeditor.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\AthleteEditor.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

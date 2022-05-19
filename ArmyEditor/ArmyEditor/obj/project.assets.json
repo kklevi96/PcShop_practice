@@ -168,11 +168,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kklevi\\source\\repos\\PcShop\\ArmyEditor\\ArmyEditor\\ArmyEditor.csproj",
+      "projectUniqueName": "C:\\Users\\kklevi\\source\\repos\\PcShop_practice\\ArmyEditor\\ArmyEditor\\ArmyEditor.csproj",
       "projectName": "ArmyEditor",
-      "projectPath": "C:\\Users\\kklevi\\source\\repos\\PcShop\\ArmyEditor\\ArmyEditor\\ArmyEditor.csproj",
+      "projectPath": "C:\\Users\\kklevi\\source\\repos\\PcShop_practice\\ArmyEditor\\ArmyEditor\\ArmyEditor.csproj",
       "packagesPath": "C:\\Users\\kklevi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kklevi\\source\\repos\\PcShop\\ArmyEditor\\ArmyEditor\\obj\\",
+      "outputPath": "C:\\Users\\kklevi\\source\\repos\\PcShop_practice\\ArmyEditor\\ArmyEditor\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\kklevi\\AppData\\Roaming\\NuGet\\NuGet.Config",
