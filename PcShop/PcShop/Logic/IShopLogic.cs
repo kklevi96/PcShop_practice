@@ -11,5 +11,6 @@ namespace PcShop.Logic
         void UndoDiscountComponent(ComputerComponent component);
         void LoadComponents(IList<ComputerComponent> components, IList<ComputerComponent> computercomponents);
         void RemoveComponent(ComputerComponent component);
+        bool MaxLimit(ComputerComponent component);
     }
 }

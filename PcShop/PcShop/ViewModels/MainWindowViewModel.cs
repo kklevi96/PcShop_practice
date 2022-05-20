@@ -87,7 +87,7 @@ namespace PcShop.ViewModels
 
             AddComponentCommand = new RelayCommand(
                 () => logic.AddComponent(SelectedFromComponents),
-                () => SelectedFromComponents != null
+                () => SelectedFromComponents != null && logic.MaxLimit(SelectedFromComponents)
                 );
 
             RemoveComponentCommand = new RelayCommand(

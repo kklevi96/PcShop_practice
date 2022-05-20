@@ -64,6 +64,18 @@ namespace PcShop.Logic
             messenger.Send("Component removed", "ShopInfo");
         }
 
+        public bool MaxLimit(ComputerComponent computerComponent)
+        {
+            if (computerComponent.Type == "CPU")
+                return computercomponents.Count(t => t.Type == "CPU") < 1;
+            else if (computerComponent.Type == "MOTHERBOARD")
+                return computercomponents.Count(t => t.Type == "MOTHERBOARD") < 1;
+            else
+                return true;
+            messenger.Send("MaxLimit checked", "ShopInfo");
+
+        }
+
         public int SumPrice
         {
             get
