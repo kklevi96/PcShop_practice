@@ -50,15 +50,17 @@ namespace PcShop.Logic
 
         public void DiscountComponent(ComputerComponent component)
         {
-            double a = Convert.ToDouble(component.GetCopy().Price);
-            a = Convert.ToDouble(component.Price * 0.9);
+            component.Price = Math.Round(component.Price * 0.9, 2);
+        }
 
-            messenger.Send("Component discounted", "ShopInfo");
+        public void UndoDiscountComponent(ComputerComponent component)
+        {
+            component.Price = Math.Round(component.Price / 0.9, 2);
         }
 
         public void RemoveComponent(ComputerComponent component)
         {
-            components.Remove(component);
+            computercomponents.Remove(component);
             messenger.Send("Component removed", "ShopInfo");
         }
 
@@ -66,7 +68,7 @@ namespace PcShop.Logic
         {
             get
             {
-                return computercomponents.Count == 0 ? 0 : computercomponents.Sum(t => t.Price);
+                return computercomponents==null || computercomponents.Count == 0 ? 0 : computercomponents.Sum(t => Convert.ToInt32(t.Price));
             }
         }
     }

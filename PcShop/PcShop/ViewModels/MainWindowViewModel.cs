@@ -29,6 +29,7 @@ namespace PcShop.ViewModels
                 SetProperty(ref selectedFromComponents, value);
                 (LoadComponentsCommand as RelayCommand).NotifyCanExecuteChanged();
                 (DiscountComponentCommand as RelayCommand).NotifyCanExecuteChanged();
+                (UndoDiscountComponentCommand as RelayCommand).NotifyCanExecuteChanged();
                 (AddComponentCommand as RelayCommand).NotifyCanExecuteChanged();
             }
         }
@@ -54,6 +55,8 @@ namespace PcShop.ViewModels
         public ICommand AddComponentCommand { get; set; }
         public ICommand RemoveComponentCommand { get; set; }
         public ICommand DiscountComponentCommand { get; set; }
+        public ICommand UndoDiscountComponentCommand { get; set; }
+
         public ICommand LoadComponentsCommand { get; set; }
         public int SumPrice { get { return logic.SumPrice; } }
 
@@ -93,8 +96,13 @@ namespace PcShop.ViewModels
                 );
 
             DiscountComponentCommand = new RelayCommand(
-                () => logic.DiscountComponent(SelectedFromComputerComponents),
-                () => SelectedFromComputerComponents != null
+                () => logic.DiscountComponent(SelectedFromComponents),
+                () => SelectedFromComponents != null
+                );
+
+            UndoDiscountComponentCommand = new RelayCommand(
+                () => logic.UndoDiscountComponent(SelectedFromComponents),
+                () => SelectedFromComponents != null
                 );
 
             Messenger.Register<MainWindowViewModel, string, string>(this, "ShopInfo", (recipient, msg) =>

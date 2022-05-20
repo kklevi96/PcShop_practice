@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FxI/rgA5DFeSDOIL3RXztYEoRu64fG2i+47x6lk+8LCniSiNyI728LRSXru1Dt611Ek6KQLJM3endVMMzUd/2g==",
+  "dgSpecHash": "nZE6uHMMa1f4OiCYuaTe6SqnXtYSvFj8eVCjWKeQm9sB0Czig41/J8+2aSUSlcdmwNW0CO8IOlSYuheASyTsPA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kklevi\\source\\repos\\PcShop_practice\\MintaZH\\MintaZH\\MintaZH\\MintaZH.csproj",
+  "projectFilePath": "C:\\Users\\kklevi\\Source\\Repos\\PcShop_practice\\MintaZH\\MintaZH\\MintaZH\\MintaZH.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kklevi\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0\\microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
     "C:\\Users\\kklevi\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",

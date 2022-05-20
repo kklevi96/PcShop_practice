@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "o/wyt0R4OloQb9k3M1nf+MdI4bwzYopk8ykQJcKmdJNWSV3uHpTQqx1j6HZFKWQQPXVb8Wa3tGUr9i2HJexnSg==",
+  "dgSpecHash": "eVoKto8t9IqYr6iMur5fsk2xrr4yqM8CVJvbFB60wan+9P19f0L2BfB8zEq0Hl2Y6GG7IEV9RKuO1fqoKWkGsQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kklevi\\source\\repos\\PcShop_practice\\ArmyEditor\\ArmyEditor\\ArmyEditor.csproj",
+  "projectFilePath": "C:\\Users\\kklevi\\Source\\Repos\\PcShop_practice\\ArmyEditor\\ArmyEditor\\ArmyEditor.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kklevi\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0\\microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
     "C:\\Users\\kklevi\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",

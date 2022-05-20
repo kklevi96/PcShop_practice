@@ -25,9 +25,9 @@ namespace PcShop.Models
             set { SetProperty(ref name, value); }
         }
 
-        private int price;
+        private double price;
 
-        public int Price
+        public double Price
         {
             get { return price; }
             set { SetProperty(ref price, value); }

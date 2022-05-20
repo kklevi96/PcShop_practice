@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kklevi\\source\\repos\\PcShop_practice\\MintaZH\\MintaZH\\MintaZH\\MintaZH.csproj": {}
+    "C:\\Users\\kklevi\\Source\\Repos\\PcShop_practice\\MintaZH\\MintaZH\\MintaZH\\MintaZH.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kklevi\\source\\repos\\PcShop_practice\\MintaZH\\MintaZH\\MintaZH\\MintaZH.csproj": {
+    "C:\\Users\\kklevi\\Source\\Repos\\PcShop_practice\\MintaZH\\MintaZH\\MintaZH\\MintaZH.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kklevi\\source\\repos\\PcShop_practice\\MintaZH\\MintaZH\\MintaZH\\MintaZH.csproj",
+        "projectUniqueName": "C:\\Users\\kklevi\\Source\\Repos\\PcShop_practice\\MintaZH\\MintaZH\\MintaZH\\MintaZH.csproj",
         "projectName": "MintaZH",
-        "projectPath": "C:\\Users\\kklevi\\source\\repos\\PcShop_practice\\MintaZH\\MintaZH\\MintaZH\\MintaZH.csproj",
+        "projectPath": "C:\\Users\\kklevi\\Source\\Repos\\PcShop_practice\\MintaZH\\MintaZH\\MintaZH\\MintaZH.csproj",
         "packagesPath": "C:\\Users\\kklevi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kklevi\\source\\repos\\PcShop_practice\\MintaZH\\MintaZH\\MintaZH\\obj\\",
+        "outputPath": "C:\\Users\\kklevi\\Source\\Repos\\PcShop_practice\\MintaZH\\MintaZH\\MintaZH\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kklevi\\AppData\\Roaming\\NuGet\\NuGet.Config",
