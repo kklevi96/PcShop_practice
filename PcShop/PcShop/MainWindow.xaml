@@ -51,11 +51,11 @@
             <Label ContentStringFormat="Current price: {0} Ft" Content="{Binding SumPrice}"></Label>
 
         </StackPanel>
-        <ListBox Grid.Column="2" SelectedItem="{Binding SelectedFromComputerComponents}" ItemsSource="{Binding ComputerComponents}">
+        <ListBox Grid.Column="2" SelectedItem="{Binding SelectedFromComputerComponents}" ItemsSource="{Binding ComputerComponents}" HorizontalContentAlignment="Stretch">
             <ListBox.ItemTemplate>
                 <DataTemplate>
                     <Border BorderBrush="Black" BorderThickness="1">
-                        <Grid>
+                        <Grid Background="{Binding Type, Mode=OneWay, Converter={StaticResource colorConvert}}">
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition Width="1*"></ColumnDefinition>
                                 <ColumnDefinition Width="1*"></ColumnDefinition>
